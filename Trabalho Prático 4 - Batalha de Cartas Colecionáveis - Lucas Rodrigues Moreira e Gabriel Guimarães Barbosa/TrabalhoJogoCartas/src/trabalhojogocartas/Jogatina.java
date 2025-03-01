@@ -86,8 +86,8 @@ public class Jogatina {
         Vector<cartas> maojogador1 = new Vector<>();
         Vector<cartas> maojogador2 = new Vector<>();
         
-        //Criamos um file referenciando o link de onde o arquivo .csv está localizado no computador
-        File arquivoCartas = new File("C:\\Users\\0068952\\Downloads\\cartas (5).csv");
+        //Criamos um file referenciando o link de onde o arquivo .csv está localizado no computador, caso o arquivo .csv esteja em outro endereço, altere o link.
+        File arquivoCartas = new File("C:\Users\Admin\Desktop\Batalha-de-Cartas-Colecion-veis-main\Batalha-de-Cartas-Colecion-veis-main\Trabalho Prático 4 - Batalha de Cartas Colecionáveis - Lucas Rodrigues Moreira e Gabriel Guimarães Barbosa\TrabalhoJogoCartas\src\trabalhojogocartas\cartas.csv");
         
         //Verificamos se o arquivo existe
         if (arquivoCartas.exists()) {
